@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'ArialMT';
+    src: url("../fonts/ARIALMTMEDIUM.TTF");
+}
+
+@font-face {
+    font-family: 'Arial-BoldMT';
+    src: url("../fonts/ARIALBOLDMT.OTF");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ArialMT';
+}
+
+
+body {
+    background: #343b43;
+}
+
+.container {
+    width: 652px;
+    margin: 0 auto;
+    >.top-header{
+        width: 100%;
+        background: #242930;
+        color: #969a9f;
+        font-size: 10px;
+        line-height: 30px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        >.left{
+            padding-left: 95px;
+            >span{
+                text-decoration: underline;
+            }
+        }
+        >.right{
+            >ul{
+                list-style: none;
+                display: flex;
+                justify-content: end;
+                padding-right: 16px;
+                >li{
+                    position: relative;
+                    padding-left: 6px;
+                    &:first-child{
+                        margin-right: 14px;
+                    }
+                    &::before{
+                        content: '';
+                        width: 30px;
+                        height: 30px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: url("../images/top-arrow.png") no-repeat 0 center;
+                    }
+                }
+            }
+        }
+    }
+    >.header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 108px;
+        border-bottom: 2px solid #000;
+        >span{
+            color: #aeb1b4;
+        }
+    }
+    >.banner{
+        width: 100%;
+        background: #1fb5af;
+        color: #fff;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        height: 344px;
+        align-items: center;
+        padding: 0 44px;
+        >div{
+            text-align: left;
+            >h1{
+                font-size: 38px;
+                font-family: 'Arial-BoldMT';
+            }
+            >p{
+                font-size: 14px;
+                color: #bce9e7;
+                line-height: 22px;
+                margin: 16px 0 24px;
+            }
+            >button{
+                width: 133px;
+                height: 62px;
+                box-shadow: 0 3px 3px #000;
+                background: #fff;
+                font-size: 14px;
+                color: #e26352;
+                border-width: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 300px;
+    height: 150px;
+    background: cornflowerblue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.pain {
+    width: 300px;
+    height: 150px;
+    background: tomato;
+    position: relative;
+    z-index: 1;
+}
+
+.rain {
+    width: 50%;
+    height: 50%;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gain {
+    width: 300px;
+    height: 150px;
+    background: dodgerblue;
+    transition: 1s;
+    margin: 20px auto;
+}
+
+.gain:hover{
+    transform: translate(20px, 20px);
+    transform: scale(1.2);
+    transform: rotate(360deg);
+    transform: translate(20px, 20px) scale(1.2) rotate(360deg) skew(-20deg, 20deg);
+}

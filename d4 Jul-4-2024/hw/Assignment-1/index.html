@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS skills showcase</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+        .whole-table{
+            border: 1px violet solid;
+            padding: 20px;
+            width: 50%;
+            margin-inline: auto;
+        }
+        .whole-form{
+            border: 1px salmon solid;
+            padding: 20px;
+            width: 50%;
+            margin-inline: auto;
+        }
+        .css-box{
+            border: 1px seagreen solid;
+            padding: 20px;
+            width: 50%;
+            margin-inline: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML table -->
+    <div class="whole-table">
+        <h2>=> HTML/CSS table</h2>
+    <table>
+        <tr>
+            <th>hello</th>
+            <th>hello</th>
+            <th>hello</th>
+        </tr>
+        <tr>
+            <td>Not hello</td>
+            <td>Not hello</td>
+            <td>Not hello</td>
+        </tr>
+        <tr>
+            <td>Not hello</td>
+            <td>Not hello</td>
+            <td>Not hello</td>
+        </tr>
+
+    </table>
+    </div>
+    <br>
+    <!-- HTML form -->
+    <div class="whole-form">
+        <h2>=> HTML Form</h2>
+    <form action="">
+        <label for="fname">First name:</label>
+        <br>
+        <br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+        <label for="lname">Last name:</label>
+        <br>
+        <br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    <!-- css box model -->
+    <div style="margin-top: 10px;" class="css-box">
+        <h2>=> HTML border, margin, padding</h2>
+        <!-- border example -->
+        <div style="border: 3px solid; width: 20%; text-align: center;">
+            <p><b>BORDER</b></p>
+        </div>
+        <br>
+        <!-- padding example -->
+        <div style="width: 30%; background-color: blueviolet; text-align: center; padding: 20px;">
+            <p style="color: white;"><b>PADDING</b></p>
+        </div>
+        <br>
+        <!-- Margin example -->
+        <div style="border: 3px solid; width: 150px; height: 100px; text-align: center;">
+            <div style="width: 80px; height: 80px; border: 2px solid salmon; margin-inline: auto;">
+                <p><b>MARGIN</b></p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- CSS text styles -->
+    <div style="width: 485px; border: 2px solid indianred; margin-inline: auto;">
+        <h2 style="padding: 10px;">=> Text Styles & font font-family</h2>
+        <div style="width: 80%; border: 2px solid cyan; padding: 10px; margin: 20px;">
+            <h3 style="">Text Box: -</h3>
+            <p class="geologica-medium"><b>Lorem ipsum</b> dolor <span style="color: red;">sit amet consectetur</span> adipisicing elit. Accusantium quod provident eius <i>expedita ullam</i> quas non dolorum. Voluptates, <u>voluptatibus non.</u> </p>
+        </div>
+    </div>
+</body>
+</html>

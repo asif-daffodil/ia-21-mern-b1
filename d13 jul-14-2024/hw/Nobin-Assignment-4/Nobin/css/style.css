@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.root {
+  height: 400px;
+  width: 400px;
+  background-image: url("./pexels-pixabay-33109.jpg");
+  margin-left: 400px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background-image: url("./pexels-ameliacui-19217295.jpg");
+  animation-name: Div1;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Div1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 250px;
+    top: 0px;
+  }
+  50% {
+    left: 250px;
+    top: 250px;
+  }
+  75% {
+    left: 0px;
+    top: 250px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.div2 {
+  margin-left: 100px;
+  height: 150px;
+  width: 150px;
+  background-image: url("./pexels-ameliacui-19217295.jpg");
+  position: relative;
+  animation-name: Div2;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Div2 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    right: 0px;
+    top: 250px;
+  }
+  50% {
+    right: 250px;
+    top: 250px;
+  }
+  75% {
+    right: 250px;
+    top: 0px;
+  }
+  100% {
+    right: 0px;
+    top: 0px;
+  }
+}
+.div3 {
+  margin-top: 100px;
+  height: 150px;
+  width: 150px;
+  background-image: url("./pexels-ameliacui-19217295.jpg");
+  position: relative;
+  animation-name: Div3;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Div3 {
+  0% {
+    left: 0px;
+    bottom: 0px;
+  }
+  25% {
+    left: 0px;
+    bottom: 250px;
+  }
+  50% {
+    left: 250px;
+    bottom: 250px;
+  }
+  75% {
+    left: 250px;
+    bottom: 0px;
+  }
+  100% {
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+.div4 {
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 150px;
+  width: 150px;
+  background-image: url("./pexels-ameliacui-19217295.jpg");
+  position: relative;
+  animation-name: Div4;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Div4 {
+  0% {
+    right: 0px;
+    bottom: 0px;
+  }
+  25% {
+    right: 250px;
+    bottom: 0px;
+  }
+  50% {
+    right: 250px;
+    bottom: 250px;
+  }
+  75% {
+    right: 0px;
+    bottom: 250px;
+  }
+  100% {
+    right: 0px;
+    bottom: 0px;
+  }
+}

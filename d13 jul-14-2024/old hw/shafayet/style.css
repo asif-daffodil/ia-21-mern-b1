@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+main {
+    max-width: 1800px;
+    margin-inline: auto;
+    background-image: url(/images/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scan-me{
+    width: 100px;
+    
+}
+.text{
+    text-align: center;
+}
+.logo, .text, .contacts-section{
+    width: 30%;
+}
+
+.heading-styles{
+ color: #662401;
+ font-size: 80px;
+}
+p{
+    color: 662401;
+    font-weight: bold;
+}

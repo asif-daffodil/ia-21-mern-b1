@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SMS</title>
+  </head>
+  <body>
+    <h1>Student Management System</h1>
+
+    <section class="table-section">
+      <h2>Students List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Number</th>
+            <th>Department</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>COMT-200534</td>
+            <td>Saidul Badhon</td>
+            <td>saidul-21ia@dipti.com.bd</td>
+            <td>01712345678</td>
+            <td>CSE</td>
+          </tr>
+          <tr>
+            <td>COMT-200535</td>
+            <td>Adnan Khan</td>
+            <td>adnan-21ia@dipti.com.bd</td>
+            <td>01712345679</td>
+            <td>CSE</td>
+          </tr>
+
+          <tr>
+            <td>COMT-200536</td>
+            <td>Shahriar Shuvo</td>
+            <td>shahriar-21ia@dipti.com.bd</td>
+            <td>01712345680</td>
+            <td>CSE</td>
+          </tr>
+
+          <tr>
+            <td>COMT-200537</td>
+            <td>Emon Khan</td>
+            <td>emon-21ia@dipti.com.bd</td>
+            <td>01712345681</td>
+            <td>CSE</td>
+          </tr>
+
+          <tr>
+            <td>COMT-200538</td>
+            <td>Arifin Mia</td>
+            <td>arifin-21ia@dipti.com.bd</td>
+            <td>01712345682</td>
+            <td>CSE</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="form-section">
+      <h2>Student Form</h2>
+      <form>
+        <label for="avatar">Avatar</label>
+        <input type="file" id="avatar" name="avatar" accept="image/*" />
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="number">Number:</label>
+        <input type="tel" id="number" name="number" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <div class="groups">
+          <label>Gender:</label>
+
+          <div class="input-group">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div class="input-group">
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+
+        <div class="groups">
+          <label>Hobbies:</label>
+          <div class="input-group">
+            <input type="checkbox" id="hobby1" name="hobbies" value="reading" />
+            <label for="hobby1">Reading</label>
+          </div>
+          <div class="input-group">
+            <input
+              type="checkbox"
+              id="hobby2"
+              name="hobbies"
+              value="traveling"
+            />
+            <label for="hobby2">Traveling</label>
+          </div>
+          <div class="input-group">
+            <input type="checkbox" id="hobby3" name="hobbies" value="sports" />
+            <label for="hobby3">Sports</label>
+          </div>
+
+          <div class="input-group">
+            <input type="checkbox" id="hobby4" name="hobbies" value="music" />
+            <label for="hobby4">Music</label>
+          </div>
+
+          <div class="input-group">
+            <input type="checkbox" id="hobby5" name="hobbies" value="gaming" />
+            <label for="hobby5">Gaming</label>
+          </div>
+
+          <div class="input-group">
+            <input type="checkbox" id="hobby6" name="hobbies" value="coding" />
+            <label for="hobby6">Coding</label>
+          </div>
+
+          <div class="input-group">
+            <input type="checkbox" id="hobby7" name="hobbies" value="cooking" />
+            <label for="hobby7">Cooking</label>
+          </div>
+        </div>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+          <option value="cse">CSE</option>
+          <option value="eee">EEE</option>
+          <option value="bba">BBA</option>
+          <option value="law">Law</option>
+        </select>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="bangladesh">Bangladesh</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Australia</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="5"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

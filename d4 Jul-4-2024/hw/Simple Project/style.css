@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    height:auto;
+    margin: auto;
+    background-color: rgb(114, 158, 158);
+}
+
+body{
+   
+    background-color: gray;
+}
+
+.bannar{
+    background: url(img/frouts.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 20px;
+}
+.s-title{
+    padding-top: 110px;
+    
+}
+.s-title h4{    
+    margin: 0 280px 0 280px;
+    background-color: rgb(114, 158, 158);
+    text-align: center;
+    color: rgb(241, 245, 246);
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.s-title h5{  
+    margin: 0 280px 0 280px;
+    background-color: rgb(114, 158, 158);
+    text-align: center;
+    color: rgb(241, 245, 246);
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+button{
+margin: 20px 0 0 480px;
+font-size: 20px;
+font-weight: bold;
+padding: 7px;
+border-radius: 10px;
+border: 5px solid rgb(73, 72, 72) ;
+}
+
+/* part-2 */
+
+.card-1{
+    width: 65%;
+    margin-left: 170px;
+}
+.card-1 img{
+    margin: 5px 0 5px 200px;
+}
+.card-h{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-p{
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-p-1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-btn{
+ border: 2px solid rgb(19, 41, 70);
+ border-radius: 5px;
+ color: rgb(242, 238, 238);
+ padding: 5px;
+ font-size: 20px;
+ margin-left: 170px;
+}
+
+.card-2 img{
+    margin: 5px 0 5px 200px;
+
+}
+.card-2{
+    width: 65%;
+    margin-left: 170px;
+}
+
+.card-3 img{
+    margin: 5px 0 5px 200px;
+
+}
+.card-3{
+    width: 65%;
+    margin-left: 170px;
+}
+
+.card-4 img{
+    margin: 5px 0 5px 200px;
+}
+.card-4{
+    width: 65%;
+    margin-left: 170px;
+}
+
+.card-5 img{
+    margin: 5px 0 5px 200px;
+}
+.card-5{
+    width: 65%;
+    margin-left: 170px;
+}
+/* part-3 */
+.table-style{
+    margin-left: 370px;
+}
+table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* part-4 */
+
+.f-text-style{
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.f-text-style input{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.f-btm{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color:rgb(46, 46, 232);
+    border-radius: 5px;
+    background-color: rgb(209, 209, 214);
+    border: 2px solid rgb(60, 60, 61);    
+    margin: 20px 0 0 10px; 
+}
+
+.f-style{
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding:10px;
+}

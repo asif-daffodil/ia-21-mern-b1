@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+.background-image{
+    width: 1358px;
+    height: 675px;
+    background-color: #fff;
+}
+.logo {
+    width: 155px;
+    height: 163px;
+    background-image: url(image/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: orange; 
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img {
+    width: 372px;
+    height: 675px;
+    background-image: url(image/img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.shape1 {
+    width: 67px;
+    height: 150px;
+    background-image: url(image/shape1.png);
+}
+.shape1 {
+    position: relative;
+    top: -150px;
+    left: 340px;
+    z-index: 1;
+}
+.shape2 {
+    width: 355px;
+    height: 108px;
+    background-image: url(image/shape2.png);
+    text-align: center;
+    font-size: 33px;
+} 
+.shape2 {
+    position: relative;
+    top: -70%;
+    right: -1000px;;
+    z-index: 3;
+    overflow-x: hidden;
+}
+.rectangle1 {
+    width: 303px;
+    height: 466px;
+    background-image: url(image/rectangle1.png);
+    text-align: center;
+    font-size: 28px;
+}
+.rectangle1 {
+    position: relative;
+    top: -125%;
+    right: -1055px;;
+    z-index: 2;
+    overflow-x: hidden;
+}
+.haif-circle1 {
+    width: 269px;
+    height: 135px;
+    background-image: url(image/haif-circle1.png);
+}
+.haif-circle1 {
+    position: relative;
+    top: -210%;
+    right: -700px;;
+    z-index: 4;
+}
+.haif-circle2 {
+    width: 279px;
+    height: 140px;
+    background-image: url(image/haif-circle2.png);
+}
+.haif-circle2 {
+    position: relative;
+    top: -160%;
+    right: -550px;;
+    z-index: 4;
+}
+.phone-icone {
+    width: 58px;
+    height: 58px;
+    background-image: url(image/phone-icone.png);
+}
+.phone-icone {
+    position: relative;
+    top: -171%;
+    right: -1015px;;
+    z-index: 5;
+}
+.social-media {
+    width: 108px;
+    height: 21px;
+    background-image: url(image/social-media.png);
+    font-size: larger;
+}
+.social-media {
+    position: relative;
+    top: -165%;
+    right: -1100px;;
+    z-index: 6;
+}
+.rectangle2 {
+    width: 107px;
+    height: 581px;
+    background-image: url(image/rectangle2.png);
+}
+.rectangle2 {
+    position: relative;
+    top: -255%;
+    right: -1251px;
+}
+.qr {
+    width: 148px;
+    height: 147px;
+    background-image: url(image/qr.png);
+}
+.qr {
+    position: relative;
+    top: -2200px;
+    right: -1150px;
+    z-index: 8;
+}
+
+.h1{
+    text-align: center;
+    font-size: 40px;
+}
+.h1{
+    position: relative;
+    top: -2350px;
+    right: 0px;
+}
+.p3 {
+    text-align: center;
+    font-size: 24px;
+}
+.p3 {
+    position: relative;
+    top: -2350px;
+    right: 0px;
+}

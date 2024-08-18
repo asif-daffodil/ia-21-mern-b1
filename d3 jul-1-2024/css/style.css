@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Oswald;
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+.dhaka {
+    width: 210px;
+    /* background: linear-gradient(to top right, red, green, blue); */
+    /* background: radial-gradient(red 20%, green 60%, blue); */
+    /* background-image: url("../image/GreenGrass.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background: linear-gradient(to top right, rgba(255,0,0,0.5), rgba(255, 255, 255, 0.5), rgba(0, 0, 255,0.5)), url("../image/GreenGrass.jpg") no-repeat center center/cover;
+    margin: 20px auto;
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: inherit;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    padding: 6px;
+    border-radius: 6px;
+    /* border: 2px solid black; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 10px black, -10px -10px 10px black, 0px 0px 30px black inset;
+}
+.khulna{
+    width: 100%;
+    height: 100px;
+    background: url("../image/largeBg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 300px;
+}
+
+.rajshahi {
+    width: 100%;
+    height: 100vh;
+}

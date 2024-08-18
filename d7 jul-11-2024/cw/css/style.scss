@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$headingText : #f33;
+
+@mixin text-middle ($w: max-content, $h: max-content, $bg: transparent) {
+    width: $w;
+    height: $h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $bg;
+    margin: 10px;
+}
+
+.h1 {
+    color: $headingText;
+}
+
+.mdiv {
+    @include text-middle(100px, 100px, #faa);
+}
+
+.pdiv {
+    @include text-middle(200px, 200px, #aaf);
+}
+
+.main {
+    @include text-middle(200px, 200px, #afa);
+    >.pain{
+        @include text-middle(100px, 100px, #ffa);
+        >.rain{
+            @include text-middle(50px, 50px, #aff);
+            &::before{
+                content: "Hello";
+            }
+            &:hover{
+                background: #f00;
+                &::before{
+                    content: "Hi";
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.gain {
+    @extend .mdiv;
+}
