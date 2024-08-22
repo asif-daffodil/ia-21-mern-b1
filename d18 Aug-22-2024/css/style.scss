@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordions {
+    width: 600px;
+    margin: 20px auto;
+    >.accordion{
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        >.accordion-header{
+            padding: 10px;
+            background-color: #f4f4f4;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            &::before{
+                content: '+';
+                float: right;
+            }
+            &:hover{
+                background-color: #e4e4e4;
+            }
+            &.active{
+                background-color: #333;
+                color: #fff;
+                &::before{
+                    content: '-';
+                }
+            }
+        }
+        >.accordion-body{
+            visibility: hidden;
+            position: absolute;
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.5s;
+            &.active{
+                visibility: visible;
+                position: relative;
+                opacity: 1;
+                transition: opacity 0.5s;
+            }
+        }
+    }
+}
