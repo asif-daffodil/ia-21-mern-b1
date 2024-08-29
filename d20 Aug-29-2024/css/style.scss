@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    >.clock{
+        width: 300px;
+        min-height: 100px;
+        margin: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #000;
+        >.clock_time{
+            font-size: 30px;
+            text-align: center;
+            padding: 10px 10px 0px;
+        }
+        >.clock_date{
+            font-size: 16px;
+            text-align: center;
+            padding: 0px 10px;
+        }
+    }
+}
