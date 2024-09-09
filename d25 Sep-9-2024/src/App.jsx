@@ -1,8 +1,9 @@
 import MyInfo from "./Components/MyInfo"
 import UserInfo from "./Components/UserInfo"
+import jsonData from "./assets/generated.json";
 
 function App() {
-
+  console.log(jsonData);
   const userData = [
     { id: 1, name: "Asif Abir", city: "Dhaka" },
     { id: 2, name: "Md Abdullah Towhid", city: "Dubai" },
