@@ -46,3 +46,19 @@ app.get('/batch/:name?', (req, res) => {
 app.get('/search', (req, res) => {
     res.send(`Search Query: ${req.query.q}`);
 })
+
+// middleware
+const checkAge = (req, res, next) => {
+    if(!req.query.age){
+        res.send('Please provide age');
+    }
+    else if (req.query.age >= 18) {
+        next();
+    } else {
+        res.send('You are not allowed');
+    }
+}
+
+app.get('/drink', checkAge, (req, res) => {
+    res.send('You can drink');
+})
